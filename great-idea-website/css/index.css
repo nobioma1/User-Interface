@@ -64,6 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 61%;
+	margin: 0 auto;
+}
+
 .top-bar {
 	width: 100%;
 	text-align: center;
@@ -82,6 +87,37 @@ nav a {
 }
 
 .logo {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-container{
+	padding: 30px;
+}
+
+.header-container header {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.header-container header h1 {
+	width: 100%;
+	font-size: 80px;
+	text-align: center;
+	padding: 0 60px;
+	margin-bottom: 30px
+}
+
+.get-started-link {
+	text-decoration: none;
+	color: gray;
+	padding: 5px 30px;
+	border: 1px solid gray;
+}
+
+.header-container img {
 	display: inline-block;
 	vertical-align: middle;
 }
