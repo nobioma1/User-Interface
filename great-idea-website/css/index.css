@@ -283,3 +283,29 @@ p {
 	font-family: 'Lora', serif;
 	line-height: 20px;
 }
+
+
+.product-header {
+	font-size: 30px;
+}
+
+.images-container {
+	padding-top: 10px;
+}
+
+.images-container div img {
+	height: 200px;
+	border-radius: 5px;
+}
+
+.images-container div p {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.images-container div{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 5px;
+}
