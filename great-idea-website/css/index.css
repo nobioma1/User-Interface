@@ -156,9 +156,15 @@ h5 {
 }
 
 .top-bar {
-  width: 100%;
-  text-align: center;
-  padding: 30px;
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+	background-color: antiquewhite; /* stretch */
+	position: fixed; /* stretch */
+	z-index: 9999; /* stretch */
+	border-bottom: 1px solid black; /* stretch */
+	top: 0;
+	left: 0;
 }
 
 nav {
@@ -178,6 +184,7 @@ nav a {
 }
 
 .header-container {
+	margin-top: 100px; /* stretch */
   padding: 30px;
 }
 
@@ -247,4 +254,27 @@ hr {
 footer p {
   text-align: center;
   padding: 50px;
+}
+
+/* ------------------ stretch ---------------- */
+
+nav a:hover {
+	text-decoration: underline;
+	animation-name: grow;
+	animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes grow{
+	0% { font-size: 16px; }
+	50%{ font-size: 10px; }
+	100% {font-size: 16px; }
+}
+
+.get-started-link:hover {
+	color: white;
+	border-radius: 5px;
+	background-color: gray;
+	transition: 0.5s ease-in;
 }
