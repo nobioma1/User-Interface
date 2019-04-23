@@ -278,3 +278,8 @@ nav a:hover {
 	background-color: gray;
 	transition: 0.5s ease-in;
 }
+
+p {
+	font-family: 'Lora', serif;
+	line-height: 20px;
+}
